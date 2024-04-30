@@ -97,7 +97,7 @@ Complete Exercise 7 in the space below:
 */
 let yummy = foods.slice(1,3) // credit to :https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
 
-console.log('Exercise 7 result:', yummy);
+//console.log('Exercise 7 result:', yummy);
 
 
 /*
@@ -110,10 +110,11 @@ Exercise 8: Finding an index
 
 Complete Exercise 8 in the space below:
 */
+console.log(foods.indexOf('tofu'))
+let soyIdx = foods[3]
 
 
-
-//console.log('Exercise 8 result:', soyIdx);
+console.log('Exercise 8 result:', soyIdx);
 
 
 /*
