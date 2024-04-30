@@ -8,7 +8,7 @@ Exercise 1 has been completed for you:
 
 // const foods = [];  
 
-// console.log('Exercise 1 result:', foods);
+ //console.log('Exercise 1 result:', foods);
 
 
 /*
@@ -23,7 +23,7 @@ Complete Exercise 2 in the space below:
 
  const foods = ['pizza', 'cheeseburger']
 
-// console.log('Exercise 2 result:', foods);
+ console.log('Exercise 2 result:', foods);
 
 
 /*
@@ -36,7 +36,7 @@ Complete Exercise 3 in the space below:
 
 foods.unshift('taco')
 
-//console.log('Exercise 3 result:', foods);
+console.log('Exercise 3 result:', foods);
 
 
 /*
@@ -52,7 +52,7 @@ Complete Exercise 4 in the space below:
 let favFood = foods[1]
 
 
-//console.log('Exercise 4 result:', favFood);
+console.log('Exercise 4 result:', favFood);
 
 
 
@@ -66,7 +66,7 @@ Complete Exercise 5 in the space below:
 
 foods.splice(2,0,'tofu')
 
-//console.log('Exercise 5 result:', foods);
+console.log('Exercise 5 result:', foods);
 
 
 /*
@@ -81,7 +81,7 @@ foods[1] = 'sushi'
 foods.splice(2,0,'cupcake')
 
 
-//console.log('Exercise 6 result:', foods)
+console.log('Exercise 6 result:', foods)
 
 
 
@@ -97,7 +97,7 @@ Complete Exercise 7 in the space below:
 */
 let yummy = foods.slice(1,3) // credit to :https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
 
-//console.log('Exercise 7 result:', yummy);
+console.log('Exercise 7 result:', yummy);
 
 
 /*
@@ -111,10 +111,10 @@ Exercise 8: Finding an index
 Complete Exercise 8 in the space below:
 */
 //console.log(foods.indexOf('tofu')) // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
-let soyIdx = foods[3]
+let soyIdx = foods.indexOf('tofu')
 
 
-//console.log('Exercise 8 result:', soyIdx);
+console.log('Exercise 8 result:', soyIdx);
 
 
 /*
@@ -130,10 +130,10 @@ Note: The final result should log as:
 
 Complete Exercise 9 in the space below:
 */
-console.log(foods.join(' -> '))
+let allFoods = foods.join(' -> ') //credit to : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
 
 
-//console.log('Exercise 9 result:', allFoods);
+console.log('Exercise 9 result:', allFoods);
 
 
 /*
@@ -146,7 +146,8 @@ Exercise 10: Check for an element
 
 Complete Exercise 10 in the space below:
 */
+//console.log(foods.includes('soup'))
+let hasSoup = foods.includes('soup')// credit to : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
 
 
-
-//console.log('Exercise 10 result:', hasSoup);
+console.log('Exercise 10 result:', hasSoup);
