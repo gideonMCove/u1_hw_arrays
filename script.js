@@ -36,7 +36,7 @@ Complete Exercise 3 in the space below:
 
 foods.unshift('taco')
 
-console.log('Exercise 3 result:', foods);
+//console.log('Exercise 3 result:', foods);
 
 
 /*
@@ -52,7 +52,7 @@ Complete Exercise 4 in the space below:
 let favFood = foods[1]
 
 
-console.log('Exercise 4 result:', favFood);
+//console.log('Exercise 4 result:', favFood);
 
 
 
@@ -64,9 +64,9 @@ Exercise 5: Insert an element between two others
 Complete Exercise 5 in the space below:
 */
 
+foods.splice(2,0,'tofu')
 
-
-//console.log('Exercise 5 result:', foods);
+console.log('Exercise 5 result:', foods);
 
 
 /*
