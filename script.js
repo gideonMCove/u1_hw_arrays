@@ -110,11 +110,11 @@ Exercise 8: Finding an index
 
 Complete Exercise 8 in the space below:
 */
-console.log(foods.indexOf('tofu'))
+//console.log(foods.indexOf('tofu')) // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
 let soyIdx = foods[3]
 
 
-console.log('Exercise 8 result:', soyIdx);
+//console.log('Exercise 8 result:', soyIdx);
 
 
 /*
@@ -130,7 +130,7 @@ Note: The final result should log as:
 
 Complete Exercise 9 in the space below:
 */
-
+console.log(foods.join(' -> '))
 
 
 //console.log('Exercise 9 result:', allFoods);
