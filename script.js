@@ -81,7 +81,7 @@ foods[1] = 'sushi'
 foods.splice(2,0,'cupcake')
 
 
-console.log('Exercise 6 result:', foods)
+//console.log('Exercise 6 result:', foods)
 
 
 
@@ -95,9 +95,9 @@ Exercise 7: Using the `slice()` method
 
 Complete Exercise 7 in the space below:
 */
+let yummy = foods.slice(1,3) // credit to :https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
 
-
-//console.log('Exercise 7 result:', yummy);
+console.log('Exercise 7 result:', yummy);
 
 
 /*
