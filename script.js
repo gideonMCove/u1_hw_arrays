@@ -6,9 +6,9 @@ Exercise 1: Define an empty array
 Exercise 1 has been completed for you:
 */
 
-const foods = [];  
+// const foods = [];  
 
-console.log('Exercise 1 result:', foods);
+// console.log('Exercise 1 result:', foods);
 
 
 /*
@@ -21,7 +21,7 @@ Note: 'pizza' should be the first item in the array, followed by 'cheeseburger'.
 Complete Exercise 2 in the space below:
 */
 
-
+const foods = ['pizza', 'cheeseburger']
 
 console.log('Exercise 2 result:', foods);
 
@@ -36,7 +36,7 @@ Complete Exercise 3 in the space below:
 
 
 
-console.log('Exercise 3 result:', foods);
+//console.log('Exercise 3 result:', foods);
 
 
 /*
@@ -52,7 +52,7 @@ Complete Exercise 4 in the space below:
 
 
 
-console.log('Exercise 4 result:', favFood);
+//console.log('Exercise 4 result:', favFood);
 
 
 
@@ -66,7 +66,7 @@ Complete Exercise 5 in the space below:
 
 
 
-console.log('Exercise 5 result:', foods);
+//console.log('Exercise 5 result:', foods);
 
 
 /*
@@ -79,7 +79,7 @@ Complete Exercise 6 in the space below:
 
 
 
-console.log('Exercise 6 result:', foods)
+//console.log('Exercise 6 result:', foods)
 
 
 
@@ -95,7 +95,7 @@ Complete Exercise 7 in the space below:
 */
 
 
-console.log('Exercise 7 result:', yummy);
+//console.log('Exercise 7 result:', yummy);
 
 
 /*
@@ -111,7 +111,7 @@ Complete Exercise 8 in the space below:
 
 
 
-console.log('Exercise 8 result:', soyIdx);
+//console.log('Exercise 8 result:', soyIdx);
 
 
 /*
@@ -130,7 +130,7 @@ Complete Exercise 9 in the space below:
 
 
 
-console.log('Exercise 9 result:', allFoods);
+//console.log('Exercise 9 result:', allFoods);
 
 
 /*
@@ -146,4 +146,4 @@ Complete Exercise 10 in the space below:
 
 
 
-console.log('Exercise 10 result:', hasSoup);
+//console.log('Exercise 10 result:', hasSoup);
