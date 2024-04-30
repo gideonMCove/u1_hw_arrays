@@ -66,7 +66,7 @@ Complete Exercise 5 in the space below:
 
 foods.splice(2,0,'tofu')
 
-console.log('Exercise 5 result:', foods);
+//console.log('Exercise 5 result:', foods);
 
 
 /*
@@ -76,10 +76,12 @@ Exercise 6: Replace elements
 
 Complete Exercise 6 in the space below:
 */
+foods[1] = 'sushi'
+
+foods.splice(2,0,'cupcake')
 
 
-
-//console.log('Exercise 6 result:', foods)
+console.log('Exercise 6 result:', foods)
 
 
 
